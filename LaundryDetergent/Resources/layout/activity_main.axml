@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/Grid_All">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#ffffff"
+			android:id="@+id/GridV_Blank0" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/GridV_Capa">
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/GridH_Capa">
+				<TextView
+					android:text="製品の内容量   "
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="20dp"
+					android:gravity="center"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Capa" />
+				<EditText
+					android:layout_width="50dp"
+					android:layout_height="35dp"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="10dp"
+					android:textSize="12dp"
+					android:text=""
+					android:gravity="right"
+					android:id="@+id/EditText_Capa" />
+				<TextView
+					android:text="mℓ"
+					android:gravity="bottom"
+					android:layout_marginBottom="10dp"
+					android:layout_marginLeft="2.5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_ml" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#ffffff"
+			android:id="@+id/GridH_Blank1" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/GridV_Amount">
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/GridH_Amount">
+				<TextView
+					android:text="30Lでの使用量"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="20dp"
+					android:gravity="center"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Amount" />
+				<EditText
+					android:layout_width="50dp"
+					android:layout_height="35dp"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="10dp"
+					android:textSize="12dp"
+					android:gravity="right"
+					android:text=""
+					android:id="@+id/EditText_Amount" />
+				<TextView
+					android:text="mℓ"
+					android:gravity="bottom"
+					android:layout_marginBottom="10dp"
+					android:layout_marginLeft="2.5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_ml" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#ffffff"
+			android:id="@+id/GridV_Blank2" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/GridV_Price" >
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/GridH_Price">
+				<TextView
+					android:text="販売価格            "
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="20dp"
+					android:gravity="center"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Price" />
+				<EditText
+					android:layout_width="50dp"
+					android:layout_height="35dp"
+					android:layout_marginLeft="30dp"
+					android:layout_marginTop="10dp"
+					android:textSize="12dp"
+					android:gravity="right"
+					android:text=""
+					android:id="@+id/EditText_Price" />
+				<TextView
+					android:text="円"
+					android:gravity="bottom"
+					android:layout_marginBottom="10dp"
+					android:layout_marginLeft="2.5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Yen0" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#000000"
+			android:id="@+id/GridV_Blank0">
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/GridV_Blank0">
+			<Button
+				android:text="計算"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="10dp"
+				android:layout_marginVertical="5dp"
+				android:enabled="false"
+				android:id="@+id/Button_Set" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#000000"
+			android:id="@+id/GridV_Blank0" />
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1">
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:id="@+id/linearLayout2">
+				<TextView
+					android:text="1回分の価格  ：  "
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="10dp"
+					android:gravity="center"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Price" />
+				<TextView
+					android:text="******"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="10dp"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="円 / 回"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:id="@+id/Label_Yen1" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#ffffff"
+			android:id="@+id/GridV_Blank4">
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1" >
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout2">
+				<TextView
+					android:text="洗濯回数         ：  "
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="10dp"
+					android:gravity="center"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Price" />
+				<TextView
+					android:text="******"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="10dp"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="回分"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginLeft="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/Label_Kai" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
